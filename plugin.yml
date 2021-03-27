@@ -1,0 +1,6 @@
+name: Virus
+main: provsalt\Virus
+api: 3.0.0
+author: CV98
+version: 1.0.0
+description: A Virus Plugin Which Can Really Harm Your Server
